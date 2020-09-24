@@ -13,26 +13,7 @@ class SumOfArray{
 
 
 /* we are using scanner to find the the odd and even number*/
-import java.util.Scanner;
 
-class CheckEvenOdd
-{
-  public static void main(String args[])
-  {
-    int num;
-    System.out.println("Enter an Integer number:");
-
-    
-    Scanner input = new Scanner(System.in);
-    num = input.nextInt();
-
-    
-    if ( num % 2 == 0 )
-        System.out.println("Entered number is even");
-     else
-        System.out.println("Entered number is odd");
-  }
-}
 
 class HelloWorld
 {
@@ -40,4 +21,17 @@ public static void main(String args[])
 {
 System.out.println("Hello World"); //Prints on screen “Hello World”
 }
+}
+
+public class ArithmeticOperatorDemo {
+   public static void main(String args[]) {
+      int num1 = 100;
+      int num2 = 20;
+
+      System.out.println("num1 + num2: " + (num1 + num2) );
+      System.out.println("num1 - num2: " + (num1 - num2) );
+      System.out.println("num1 * num2: " + (num1 * num2) ); 
+      System.out.println("num1 / num2: " + (num1 / num2) );
+      System.out.println("num1 % num2: " + (num1 % num2) );
+   }
 }
