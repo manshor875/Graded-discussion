@@ -33,3 +33,11 @@ class CheckEvenOdd
         System.out.println("Entered number is odd");
   }
 }
+
+class HelloWorld
+{
+public static void main(String args[])
+{
+System.out.println("Hello World"); //Prints on screen “Hello World”
+}
+}
